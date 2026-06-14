@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Outlet } from 'react-router-dom'
-import Sidebar from '../components/Sidebar'
 import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
 
 const Layout = () => {
-    const [sidebarWidth, setSidebarWidth] = useState(350)
+    const [sidebarWidth, setSidebarWidth] = useState(450)
     const [isResizing, setIsResizing] = useState(false)
+    const [music, setMusic] = useState(false)
 
     useEffect(() => {
         const handleMouseMove = (e: MouseEvent) => {
             if (!isResizing) return;
             let newWidth = e.clientX  // 8px for p-2 padding
             if (newWidth < 150) newWidth = 50; // Snap to compact mode
-            else if (newWidth > 350) newWidth = 350; // Max width
+            else if (newWidth > 450) newWidth = 450; // Max width
             setSidebarWidth(newWidth);
         };
 
@@ -33,14 +33,14 @@ const Layout = () => {
     }, [isResizing]);
 
     const toggleResize = () => {
-        setSidebarWidth(sidebarWidth === 350 ? 50 : 350)
+        setSidebarWidth(sidebarWidth === 450 ? 50 : 450)
     }
     return (
         <div className='w-full min-h-screen bg-black relative overflow-hidden '>
 
             <div
-                className={`h-svh p-2 gap-2 grid grid-rows-[7%_83%_10%] ${isResizing ? 'select-none' : 'transition-[grid-template-columns] duration-300 ease-in-out'}`}
-                style={{ gridTemplateColumns: `${sidebarWidth}px 1fr 30px` }}
+                className={`h-svh p-2 gap-2 grid grid-rows-[7%_80%_10%] ${isResizing ? 'select-none' : 'transition-[grid-template-columns] duration-300 ease-in-out'}`}
+                style={{ gridTemplateColumns: `${sidebarWidth}px 1fr ${music ? '300px' : '0'}` }}
             >
 
                 <Navbar className='row-span-1 col-span-3 relative' />
@@ -59,7 +59,7 @@ const Layout = () => {
                 </div>
 
                 {/* Main */}
-                <main className='rounded-2xl'>
+                <main className='rounded-2xl min-w-0'>
                     <Outlet />
                 </main>
 
@@ -68,7 +68,7 @@ const Layout = () => {
 
 
                 {/* Player */}
-                <div className='w-full p-1 px-0 col-span-3 h-full bg-black'>
+                <div className='w-full p-px px-px col-span-3 h-full bg-black'>
                     <Banner />
                 </div>
             </div>

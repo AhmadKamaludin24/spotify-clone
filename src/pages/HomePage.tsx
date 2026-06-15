@@ -1,16 +1,12 @@
-import { useEffect, useRef, useState } from 'react'
 import api from '../lib/api'
 import MusicCarousel from '../components/MusicCarousel'
-import { useCarousel } from '../hooks/useCarousel'
-import { useCarouselContext } from '../context/carousel-context'
-import ArtistCarousel from '../components/ArtistCarousel'
+
+
 
 const HomePage = () => {
     const data = api.playlist("3cEYpjA9oz9GiPac4AsH4n")
     console.log(data)
-    const { isClick } = useCarouselContext()
 
-    console.log(isClick)
 
 
 
@@ -20,12 +16,13 @@ const HomePage = () => {
 
 
 
-            <MusicCarousel />
+            <MusicCarousel mode="songs" />
+
+
 
             <h1 className='font-semibold text-white text-2xl px-7 mt-7'>Popular Artist</h1>
 
-            <div className={`${isClick ? "opacity-100" : "opacity-0"} absolute transition-opacity ease-in-out duration-700 pointer-events-none w-full inset-0 bg-linear-to-r from-background via-transparent right-0 left-0 top-0 bottom-0 to-background`}></div>
-            <ArtistCarousel />
+            <MusicCarousel mode="artist" />
 
 
 

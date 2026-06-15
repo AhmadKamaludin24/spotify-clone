@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
-import { CarouselProvider } from '../context/carousel-context'
-
 const Layout = () => {
     const [sidebarWidth, setSidebarWidth] = useState(450)
     const [isResizing, setIsResizing] = useState(false)
@@ -61,9 +59,9 @@ const Layout = () => {
 
                 {/* Main */}
                 <main className='rounded-2xl min-w-0'>
-                    <CarouselProvider>
-                        <Outlet />
-                    </CarouselProvider>
+
+                    <Outlet />
+
                 </main>
 
                 {/* RightSide */}

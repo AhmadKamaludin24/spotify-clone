@@ -13,7 +13,7 @@ const Navbar = ({ className }: { className: string }) => {
                 <div className='w-[450px]  relative p-2 rounded-full flex items-center justify-between bg-background h-12'>
                     <div className='flex'>
                         <img src="/icons/search-icon.svg" alt="" className='w-7' />
-                        <input type="text" placeholder='Search' className='text-white w-full absolute rounded-full inset-0 pl-12' />
+                        <input type="text" placeholder='What Do You Want To Play?' className='text-white w-full absolute rounded-full inset-0 pl-12' />
                     </div>
 
 

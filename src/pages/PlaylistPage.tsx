@@ -12,6 +12,7 @@ const PlaylistPage = () => {
     console.log(id)
 
     const song = songs.find((song) => song.id === id)
+
     if (!song) return <div></div>
     return (
         <div className='w-full rounded-xl  relative overflow-hidden overflow-y-auto hide-scrollbar h-full max-h-full  bg-background '>
@@ -29,7 +30,7 @@ const PlaylistPage = () => {
                 <div className=" -space-y-2.5 flex  flex-col text-white h-full justify-center">
 
                     <span className=" text-white/60">Single</span>
-                    <h1 className="text-[6rem] [word-spacing:2px] font-extrabold tracking-tighter">{song.title}</h1>
+                    <h1 className={` [word-spacing:2px] font-extrabold tracking-tighter ${song.title.length > 11 ? "text-7xl pt-5" : "text-[6rem]"}`}>{song.title}</h1>
 
                     <span className="text-white/70 absolute bottom-7">{song.artist} • {song.songCount} Songs • 32 min 32 s</span>
 

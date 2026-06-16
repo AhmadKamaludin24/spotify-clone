@@ -21,7 +21,7 @@ const HomePage = () => {
 
     return (
         <div className='w-full rounded-xl py-7 relative overflow-hidden overflow-y-auto hide-scrollbar h-full max-h-full bg-background '>
-            <div className="absolute inset-0 bg-linear-to-br from-gray-500/60 to-[50vh] to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-linear-to-br from-gray-500/40 to-[50vh] to-transparent pointer-events-none" />
 
             <h1 className='font-semibold text-white text-2xl px-7'>Trending Songs</h1>
 

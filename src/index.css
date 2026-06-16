@@ -3,12 +3,15 @@
 
 
 @theme {
-    --color-background: #171717;
+    --color-background: #121212;
+    --color-primary: #1DB954;
     --font-sans: 'Inter', sans-serif;
+    --color-secondary: #212121;
 }
 
 :root {
     --background: var(--color-background);
+    --secondary: var(--color-secondary);
 }
 
 body {

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const Navbar = ({ className }: { className: string }) => {
@@ -6,11 +7,11 @@ const Navbar = ({ className }: { className: string }) => {
 
             <div className=' h-full flex items-center gap-2'>
                 <img src="/logo.png" alt="spotify" className='w-9 ' />
-                <div className='ml-7 rounded-full w-12 h-12 bg-background flex justify-center items-center'>
+                <Link to={"/"} className='ml-7 rounded-full w-12 h-12 bg-background flex justify-center items-center'>
                     <img src="/icons/home-icon.svg" alt="search" className='w-6 h-6' />
-                </div>
+                </Link>
 
-                <div className='w-[450px]  relative p-2 rounded-full flex items-center justify-between bg-background h-12'>
+                <div className='w-[450px]  relative p-2 rounded-full flex items-center justify-between bg-secondary h-12'>
                     <div className='flex'>
                         <img src="/icons/search-icon.svg" alt="" className='w-7' />
                         <input type="text" placeholder='What Do You Want To Play?' className='text-white w-full absolute rounded-full inset-0 pl-12' />

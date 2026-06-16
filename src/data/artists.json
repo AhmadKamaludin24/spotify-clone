@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "The Weeknd",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e57-a63a-3acc-4b30-42568293f5f7/15UMGIM36514.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#D91E26"
+  },
+  {
+    "id": "2",
+    "name": "Ed Sheeran",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#1E88E5"
+  },
+  {
+    "id": "3",
+    "name": "Lewis Capaldi",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5e/6b/27/5e6b279b-0737-1de1-eb40-6410353bb891/25UM1IM00170.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#757575"
+  },
+  {
+    "id": "4",
+    "name": "Post Malone",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/31/57/de/3157dec9-5e26-40d1-d61c-bce30558752d/16UMGIM76041.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#FBC02D"
+  },
+  {
+    "id": "5",
+    "name": "Harry Styles",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/41/6a/07416a78-38b9-2d47-7ce8-8a52a44c510f/196874010112.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#F48FB1"
+  },
+  {
+    "id": "6",
+    "name": "The Kid LAROI",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/bc/2d/ffbc2da1-9da9-99c6-fe29-9e07802e1a37/196873582498.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#8E24AA"
+  },
+  {
+    "id": "7",
+    "name": "Justin Bieber",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/11/84/751184b0-77df-1eff-bb20-dac03247425d/15UMGIM59808.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#00ACC1"
+  },
+  {
+    "id": "8",
+    "name": "Tones And I",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/87/ed/42/87ed4279-d8d7-840f-90b5-2bffe34699ef/075679839237.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#43A047"
+  },
+  {
+    "id": "9",
+    "name": "Imagine Dragons",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/7a/b8/117ab805-6811-8929-18b9-0fad7baf0c25/17UMGIM98210.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#1565C0"
+  },
+  {
+    "id": "10",
+    "name": "Shawn Mendes",
+    "images": [
+      {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/34/34/ab/3434abcc-3b47-ca75-71df-c6a8392005d0/18UMGIM23926.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "color": "#FB8C00"
+  }
+]

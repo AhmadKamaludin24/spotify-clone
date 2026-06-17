@@ -4,7 +4,7 @@ import { ArtistCard, MusicCard } from './MusicCard'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 const MusicCarousel = ({ mode, data }: { mode: "songs" | "artist", data: any[] }) => {
-    const wrapperRef = useRef(null)
+    const wrapperRef = useRef<HTMLDivElement>(null)
 
 
 
@@ -14,6 +14,7 @@ const MusicCarousel = ({ mode, data }: { mode: "songs" | "artist", data: any[] }
     const card_width = 177 + 16
 
     useEffect(() => {
+        if (!wrapperRef.current) return
         const el = wrapperRef.current
         if (!el) return;
         const handleScroll = () => {
@@ -29,11 +30,11 @@ const MusicCarousel = ({ mode, data }: { mode: "songs" | "artist", data: any[] }
 
 
     const scrollLeft = () => {
-        wrapperRef.current.scrollBy({ left: -card_width, behavior: 'smooth' })
+        wrapperRef.current?.scrollBy({ left: -card_width, behavior: 'smooth' })
 
     }
     const scrollRight = () => {
-        wrapperRef.current.scrollBy({ left: card_width, behavior: 'smooth' })
+        wrapperRef.current?.scrollBy({ left: card_width, behavior: 'smooth' })
 
     }
 

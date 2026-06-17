@@ -8,7 +8,8 @@
     "type": "Album",
     "releaseDate": "2020-03-20",
     "songCount": 14,
-    "songDuration": "3:20"
+    "songDuration": "3:20",
+    "totalListeners": 3800000000
   },
   {
     "id": "2",
@@ -19,7 +20,8 @@
     "type": "Album",
     "releaseDate": "2017-03-03",
     "songCount": 16,
-    "songDuration": "3:53"
+    "songDuration": "3:53",
+    "totalListeners": 3600000000
   },
   {
     "id": "3",
@@ -30,18 +32,20 @@
     "type": "Album",
     "releaseDate": "2019-05-17",
     "songCount": 12,
-    "songDuration": "3:02"
+    "songDuration": "3:02",
+    "totalListeners": 3000000000
   },
   {
     "id": "4",
     "title": "Sunflower",
     "artist": "Post Malone, Swae Lee",
-    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/be/8b/35be8ba3-14c7-b9fc-6b29-7ba48296a086/4a14b8ff-03eb-4b85-ae06-021a3bd2e18d.jpg/600x600bb.jpg",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4b/30/2c/4b302cb6-7a14-5464-4e97-0577e9d0be49/18UMGIM82277.rgb.jpg/600x600bb.jpg",
     "color": "#F8B124",
     "type": "Album",
     "releaseDate": "2019-09-06",
     "songCount": 17,
-    "songDuration": "2:38"
+    "songDuration": "2:38",
+    "totalListeners": 2900000000
   },
   {
     "id": "5",
@@ -52,7 +56,8 @@
     "type": "Album",
     "releaseDate": "2016-11-25",
     "songCount": 18,
-    "songDuration": "3:50"
+    "songDuration": "3:50",
+    "totalListeners": 2800000000
   },
   {
     "id": "6",
@@ -63,7 +68,8 @@
     "type": "Album",
     "releaseDate": "2022-05-20",
     "songCount": 13,
-    "songDuration": "2:47"
+    "songDuration": "2:47",
+    "totalListeners": 2700000000
   },
   {
     "id": "7",
@@ -74,7 +80,8 @@
     "type": "Single",
     "releaseDate": "2021-07-09",
     "songCount": 1,
-    "songDuration": "2:21"
+    "songDuration": "2:21",
+    "totalListeners": 2600000000
   },
   {
     "id": "8",
@@ -85,7 +92,8 @@
     "type": "EP",
     "releaseDate": "2019-08-30",
     "songCount": 6,
-    "songDuration": "3:29"
+    "songDuration": "3:29",
+    "totalListeners": 2500000000
   },
   {
     "id": "9",
@@ -96,7 +104,8 @@
     "type": "Album",
     "releaseDate": "2017-06-23",
     "songCount": 11,
-    "songDuration": "3:24"
+    "songDuration": "3:24",
+    "totalListeners": 2400000000
   },
   {
     "id": "10",
@@ -107,6 +116,247 @@
     "type": "Single",
     "releaseDate": "2019-06-21",
     "songCount": 1,
-    "songDuration": "3:10"
+    "songDuration": "3:10",
+    "totalListeners": 2300000000
+  },
+  {
+    "id": "11",
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bb/35/39/bb353980-b0c7-eac5-9509-267feb48d1b3/21UMGIM33221.rgb.jpg/600x600bb.jpg",
+    "color": "#C94C5E",
+    "type": "Single",
+    "releaseDate": "2021-04-23",
+    "songCount": 1,
+    "songDuration": "3:35",
+    "totalListeners": 2200000000
+  },
+  {
+    "id": "12",
+    "title": "Die For You",
+    "artist": "The Weeknd",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e2/61/f8/e261f8c1-73db-9a7a-c89e-1068f19970e0/16UMGIM67863.rgb.jpg/600x600bb.jpg",
+    "color": "#C61F34",
+    "type": "Album",
+    "releaseDate": "2016-11-25",
+    "songCount": 18,
+    "songDuration": "4:20",
+    "totalListeners": 2100000000
+  },
+  {
+    "id": "13",
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg",
+    "color": "#5A9ECB",
+    "type": "Album",
+    "releaseDate": "2017-03-03",
+    "songCount": 16,
+    "songDuration": "4:23",
+    "totalListeners": 2000000000
+  },
+  {
+    "id": "14",
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2d/36/f9/2d36f9a7-2c3e-ce0f-7fb6-036feecb221f/825646974450.jpg/600x600bb.jpg",
+    "color": "#E8A54B",
+    "type": "Album",
+    "releaseDate": "2014-06-23",
+    "songCount": 12,
+    "songDuration": "4:41",
+    "totalListeners": 1900000000
+  },
+  {
+    "id": "15",
+    "title": "Before You Go",
+    "artist": "Lewis Capaldi",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9f/58/7c/9f587c97-f0e9-e335-d8e2-60b8e2d62bad/19UMGIM90850.rgb.jpg/600x600bb.jpg",
+    "color": "#B32E2E",
+    "type": "Album",
+    "releaseDate": "2019-11-15",
+    "songCount": 12,
+    "songDuration": "3:35",
+    "totalListeners": 1800000000
+  },
+  {
+    "id": "16",
+    "title": "Forget Me",
+    "artist": "Lewis Capaldi",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f9/ad/9f/f9ad9f75-07a3-69d0-fec8-4b2c7c67fe28/22UMGIM83371.rgb.jpg/600x600bb.jpg",
+    "color": "#4A7A8C",
+    "type": "Single",
+    "releaseDate": "2022-09-09",
+    "songCount": 1,
+    "songDuration": "3:20",
+    "totalListeners": 1700000000
+  },
+  {
+    "id": "17",
+    "title": "Circles",
+    "artist": "Post Malone",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/1b/1b/7b1b1b0b-7ce2-b223-f9e0-8e36abe51877/19UMGIM78325.rgb.jpg/600x600bb.jpg",
+    "color": "#4A6FA5",
+    "type": "Album",
+    "releaseDate": "2019-09-06",
+    "songCount": 17,
+    "songDuration": "3:35",
+    "totalListeners": 1600000000
+  },
+  {
+    "id": "18",
+    "title": "Rockstar",
+    "artist": "Post Malone, 21 Savage",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/9f/fb/559ffb75-3c00-abd6-7b1f-8b6b1518b173/18UMGIM22101.rgb.jpg/600x600bb.jpg",
+    "color": "#FBC02D",
+    "type": "Album",
+    "releaseDate": "2018-04-27",
+    "songCount": 18,
+    "songDuration": "3:38",
+    "totalListeners": 1500000000
+  },
+  {
+    "id": "19",
+    "title": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "color": "#D4A574",
+    "type": "Album",
+    "releaseDate": "2019-12-13",
+    "songCount": 12,
+    "songDuration": "2:54",
+    "totalListeners": 1400000000
+  },
+  {
+    "id": "20",
+    "title": "Adore You",
+    "artist": "Harry Styles",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "color": "#D4A574",
+    "type": "Album",
+    "releaseDate": "2019-12-13",
+    "songCount": 12,
+    "songDuration": "3:27",
+    "totalListeners": 1300000000
+  },
+  {
+    "id": "21",
+    "title": "WITHOUT YOU",
+    "artist": "The Kid LAROI",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a8/3a/22/a83a22f7-af18-7ef6-a7de-74816c532a44/886449475421.jpg/600x600bb.jpg",
+    "color": "#5C3D8F",
+    "type": "Album",
+    "releaseDate": "2021-07-23",
+    "songCount": 14,
+    "songDuration": "2:31",
+    "totalListeners": 1200000000
+  },
+  {
+    "id": "22",
+    "title": "Peaches",
+    "artist": "Justin Bieber",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/92/da/e092da2d-9f6d-11dc-7843-2021e95a2b61/21UMGIM17518.rgb.jpg/600x600bb.jpg",
+    "color": "#E8D5B0",
+    "type": "Album",
+    "releaseDate": "2021-03-19",
+    "songCount": 16,
+    "songDuration": "3:18",
+    "totalListeners": 1100000000
+  },
+  {
+    "id": "23",
+    "title": "Ghost",
+    "artist": "Justin Bieber",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/92/da/e092da2d-9f6d-11dc-7843-2021e95a2b61/21UMGIM17518.rgb.jpg/600x600bb.jpg",
+    "color": "#E8D5B0",
+    "type": "Album",
+    "releaseDate": "2021-03-19",
+    "songCount": 16,
+    "songDuration": "2:32",
+    "totalListeners": 1000000000
+  },
+  {
+    "id": "24",
+    "title": "Never Seen the Rain",
+    "artist": "Tones And I",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/87/ed/42/87ed4279-d8d7-840f-90b5-2bffe34699ef/075679839237.jpg/600x600bb.jpg",
+    "color": "#768379",
+    "type": "EP",
+    "releaseDate": "2019-08-30",
+    "songCount": 6,
+    "songDuration": "3:10",
+    "totalListeners": 900000000
+  },
+  {
+    "id": "25",
+    "title": "Fly Away",
+    "artist": "Tones And I",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/df/2c/a9/df2ca9bd-3250-7296-0451-1712cc1b1777/075679782076.jpg/600x600bb.jpg",
+    "color": "#D4956E",
+    "type": "Single",
+    "releaseDate": "2021-05-28",
+    "songCount": 1,
+    "songDuration": "3:17",
+    "totalListeners": 800000000
+  },
+  {
+    "id": "26",
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/fa/09/1ffa092f-f52f-4a66-7d10-4cc5982dc747/12UMGIM46901.rgb.jpg/600x600bb.jpg",
+    "color": "#2E5B8A",
+    "type": "Album",
+    "releaseDate": "2012-09-04",
+    "songCount": 12,
+    "songDuration": "3:06",
+    "totalListeners": 1800000000
+  },
+  {
+    "id": "27",
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/fa/09/1ffa092f-f52f-4a66-7d10-4cc5982dc747/12UMGIM46901.rgb.jpg/600x600bb.jpg",
+    "color": "#2E5B8A",
+    "type": "Album",
+    "releaseDate": "2012-09-04",
+    "songCount": 12,
+    "songDuration": "2:57",
+    "totalListeners": 1600000000
+  },
+  {
+    "id": "28",
+    "title": "Stitches",
+    "artist": "Shawn Mendes",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e3/d4/de/e3d4def5-886e-da47-e1cf-568566510b53/15UMGIM62454.rgb.jpg/600x600bb.jpg",
+    "color": "#3A6EA5",
+    "type": "Album",
+    "releaseDate": "2015-04-14",
+    "songCount": 15,
+    "songDuration": "3:26",
+    "totalListeners": 1400000000
+  },
+  {
+    "id": "29",
+    "title": "Treat You Better",
+    "artist": "Shawn Mendes",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/bb/b7/ddbbb775-836a-f7da-f89a-f33029f6ef4a/16UMGIM51585.rgb.jpg/600x600bb.jpg",
+    "color": "#8BC34A",
+    "type": "Album",
+    "releaseDate": "2016-09-23",
+    "songCount": 14,
+    "songDuration": "3:06",
+    "totalListeners": 1900000000
+  },
+  {
+    "id": "30",
+    "title": "In My Feelings",
+    "artist": "The Weeknd",
+    "coverUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/600x600bb.jpg",
+    "color": "#2A2A4A",
+    "type": "Album",
+    "releaseDate": "2018-06-29",
+    "songCount": 13,
+    "songDuration": "3:28",
+    "totalListeners": 500000000
   }
 ]

@@ -7,7 +7,7 @@ const Layout = () => {
     const [sidebarWidth, setSidebarWidth] = useState(420)
     const [isResizing, setIsResizing] = useState(false)
     const [isHover, setIsHover] = useState(false)
-    const [music, setMusic] = useState(false)
+
 
     useEffect(() => {
         const handleMouseMove = (e: MouseEvent) => {
@@ -41,7 +41,7 @@ const Layout = () => {
 
             <div
                 className={`h-svh p-2 gap-2 grid max-sm:grid-cols-1 grid-rows-[7%_80%_10%] ${isResizing ? 'select-none' : 'transition-[grid-template-columns] duration-300 ease-in-out'}`}
-                style={{ gridTemplateColumns: `${sidebarWidth}px 1fr ${music ? '300px' : '0'}` }}
+                style={{ gridTemplateColumns: `${sidebarWidth}px 1fr ` }}
             >
 
                 <Navbar className='row-span-1 col-span-3 relative' />
@@ -102,7 +102,7 @@ const Layout = () => {
                         onMouseDown={(e) => { e.preventDefault(); setIsResizing(true); }}
                         onDoubleClick={() => toggleResize()}
                     >
-                        <div className={`w-[2px] h-full bg-transparent group-hover:bg-white/30 transition-colors ${isResizing ? '!bg-white/60' : ''}`} />
+                        <div className={`w-[2px] h-full bg-transparent group-hover:bg-white/30 transition-colors ${isResizing ? 'bg-white/60' : ''}`} />
                     </div>
                 </div>
 

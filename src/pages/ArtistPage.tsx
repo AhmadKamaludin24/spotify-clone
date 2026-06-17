@@ -1,4 +1,4 @@
-import { Clock, EllipsisIcon, List, Play, PlayIcon, PlusCircle } from "lucide-react"
+import { EllipsisIcon, PlayIcon } from "lucide-react"
 import { PlayButton } from "../components/Buttons"
 import { useParams } from "react-router-dom"
 import songs from "../data/songs.json"
